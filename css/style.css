@@ -1,0 +1,325 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/********************************
+* Lawyer code goes here
+*********************************/
+.header-section{
+    width: 100%;
+}
+.header-section .bg-light{
+    background: transparent !important;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #28377e;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
+    transition: 1s ease-in ;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover,.header-section .navbar-light .navbar-nav .nav-link:focus{
+    color: #f1602b;
+ 
+}
+.slider{
+    width: 100%;
+}
+.slider .carousel-caption{
+    bottom: 30%;
+}
+.slider .carousel-caption h1{
+    font-size: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 64px;
+}
+.slider .carousel-caption .fa{
+    position: absolute;
+    bottom: -100px;
+    font-size: 30px;
+    color: #fff;
+}
+
+/***who-we-section stard****/
+
+
+/*title global css*/
+.title{
+    width: 100%;
+}
+
+.title h2{
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 54px;
+    color: #28377e;
+    margin: 0px 0px 20px;
+}
+
+/*title global css end*/
+
+
+.who-we{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.who-we .title{
+    margin-top: 60px;
+}
+
+.who-we .title p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #b0b0b1;
+}
+.inner-img{
+    width: 100%;
+    text-align: center;
+
+}
+
+/*.we-do-section css start*/
+.we-do-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #eee;
+    background: url("../images/sub.png")  bottom right no-repeat;
+    background-size: cover;
+
+}
+.we-do-section .title{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 70px;
+}
+
+.we-do-section  .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.inner-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+}
+
+.inner-text h4{
+    font-size: 22px;
+    line-height: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.inner-content .fa {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 98px;
+}
+
+
+.inner-content{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 43%;
+}
+.our-attorny{
+    width:100%;
+    padding:120px 0px;
+    background: url("../images/back2.png") center top no-repeat;
+    background-size: cover;
+    
+}
+.our-attorny .title{
+    width: 100%;
+    margin-top: 80px;
+}
+.our-attorny .title h2{
+    color: #fff;
+}
+.our-attorny .title p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.our-attorny .title .btn-link{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f1602b;
+    text-decoration: none;
+    padding: 0px;
+    margin: 20px 0px 0px;
+}
+.our-attorny .card{ 
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0rem;
+    margin-bottom: 30px;
+}
+.our-attorny .card .card-body{
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+  
+}
+.our-attorny .our-attorny .card .card-body .inner-content{
+  width: 100%;  
+}
+.our-attorny .our-attorny .card .card-body .inner-content h4{
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+/*language-section*/
+.language-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.language-section .title{
+    width: 100%;
+    margin: 0px 0px 70px;
+    text-align: center;
+}
+.language-inner{
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+.language-inner h4{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: #28377e;
+    margin-bottom: 20px;
+    
+}
+.language-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #b0b0b1;
+}
+.language-inner .btn-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f1602b;
+    text-decoration: none;
+    padding: 0px;
+    margin: 10px 0px 0px;
+}
+
+/*contact-section*/
+.contact-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #000da1;
+  
+}
+.contact-section .title{
+    width: 100%;
+    margin: 0px 0px 70px;
+    text-align: center;
+  
+}
+
+.contact-section .title h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact-section .form-control {
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 40%;
+    margin: 7% 30% 0%;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 700;
+   
+  
+}
+
+.contact-section form .form-control::placeholder {color: #fff;
+   
+}
+.contact-section form .form-control::-moz-placeholder{
+    color: #fff;
+}
+
+.contact-section .btn{
+    background:#ff631a;
+    margin-top: 40px;
+    border-radius: 0px;
+    border: none;
+    padding: 7px 70px;
+    color: #fff;
+    font-weight: 600;
+} 
+
+/*footer-section*/
+.footer-section{
+    width: 100%;
+    padding: 30px 0px;
+    background: #02072e;
+}
+.footer-section p{
+    color: #4c5fd1;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+   
+.footer-section .icons{
+    display: block;
+    margin-left:50%;
+}
+.footer-section .icons li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.footer-section .icons li a{
+    font-size: 20px;
+    color: #fff;
+    transition: 1s;
+}
+.footer-section .icons li a:hover,.footer-section .icons li a:focus{
+    color: #f1602b;
+}

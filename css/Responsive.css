@@ -1,0 +1,51 @@
+/*************************************
+* Responsive media queries cod
+*************************************/
+
+/*most of the mobile phone code*/
+
+@media(min-width:360px) and (max-width:480px){
+    .footer-section .icons {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    .footer-section p {
+       margin-left: 40px;
+    }
+    .language-inner p {
+       text-align: justify;
+    }
+    .title h2 {
+        .font-size: 28px;
+    }
+
+    .language-inner h4 {text-align: center;
+    }
+
+    .our-attorny .title h2 {
+            font-size: 40px;
+        }
+    .our-attorny .title .btn-link{
+            margin-left: 111px;
+        }
+        .who-we .responsiv{
+            margin-left: 111px;
+    }
+}
+
+
+/*most of the mobile phone and low resulation tablet phone code*/
+
+@media(min-width:481px) and (max-width:767px){
+ 
+    
+}
+
+
+/*most of the tablet  phone and mini notebook code*/
+
+@media(min-width:768px) and (max-width:1024px){
+    
+    
+}
